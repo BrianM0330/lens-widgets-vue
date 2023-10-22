@@ -31,7 +31,7 @@ I currently only need the `Share To Lens` button, but will add the other ones as
 ```typescript
 import {
   ShareToLens, Theme, Size
-} from '@lens-protocol/widgets-react'
+} from 'lens-widgets-vue'
 
 <ShareToLens
   content="Hello World!"
@@ -57,7 +57,7 @@ domain: string
 ```typescript
 import {
   FollowOnLens, Theme, Size
-} from '@lens-protocol/widgets-react'
+} from 'lens-widgets-vue'
 
 <FollowOnLens
   handle="stani"
@@ -79,7 +79,7 @@ iconForegroundColor: string
 ```typescript
 import {
   SignInWithLens, Theme, Size
-} from '@lens-protocol/widgets-react'
+} from 'lens-widgets-vue'
 
 async function onSignIn(tokens, profile) {
   console.log('tokens: ', tokens)
@@ -108,7 +108,7 @@ iconForegroundColor: string
 ```typescript
 import {
   Profile, Theme
-} from '@lens-protocol/widgets-react'
+} from 'lens-widgets-vue'
 
 <Profile
   handle="stani"
@@ -134,7 +134,7 @@ hideFollowButton: boolean
 ```typescript
 import {
   Publication, Theme
-} from '@lens-protocol/widgets-react'
+} from 'lens-widgets-vue'
 
 <Publication
   publicationId="0x9afd-0x02e8"
@@ -155,7 +155,7 @@ fontSize: string
 ```typescript
 import {
   Publications, Theme
-} from '@lens-protocol/widgets-react'
+} from 'lens-widgets-vue'
 
 <Publications
   handle="nader"
@@ -173,7 +173,7 @@ theme: Theme (default, dark)
 ```typescript
 import {
   ProfileListItem
-} from '@lens-protocol/widgets-react'
+} from 'lens-widgets-vue'
 
 <ProfileListItem
   handle="christina"
