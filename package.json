@@ -1,6 +1,6 @@
 {
   "name": "lens-widgets-vue",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "files": [
     "dist"
@@ -12,6 +12,13 @@
       "import": "./dist/lens-widgets-vue.js",
       "require": "./dist/lens-widgets-vue.umd.js"
     }
+  },
+  "bugs": {
+    "url": "https://github.com/BrianM0330/lens-widgets-vue/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianM0330/lens-widgets-vue.git"
   },
   "scripts": {
     "dev": "vite",
