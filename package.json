@@ -1,0 +1,32 @@
+{
+  "name": "lens-widgets-vue",
+  "version": "0.0.1",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/lens-widgets-vue.umd.js",
+  "module": "./dist/lens-widgets-vue.js",
+  "exports": {
+    ".": {
+      "import": "./dist/lens-widgets-vue.js",
+      "require": "./dist/lens-widgets-vue.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lens-widgets-vue": "^0.0.1",
+    "vue": "^3.3.4",
+    "vue-demi": "^0.14.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
+  }
+}
