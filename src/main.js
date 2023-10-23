@@ -1,3 +1,1 @@
-import ShareToLens from './components/ShareToLens.vue'
-
-export { ShareToLens }
+export { ShareToLens } from './components/index'
